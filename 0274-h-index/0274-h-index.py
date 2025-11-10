@@ -9,11 +9,14 @@ class Solution:
         if len(citations) == 1 and citations[0] == 0:
             return 0
 
-        #go through the sorted list
+  
         for i in range(len(citations)):
             freq = len(citations) - i
+
+            #at least h papers (citations[i]) with h citations(freq)
             if  freq >= citations[i]:
-                maxH = citations[i]
+                maxH = citations[i] #since we have our list sorted every value would be a maximum
             else:
-                maxH = max(freq, maxH)
+                #this else 
+                maxH = max(freq, maxH) 
         return maxH
