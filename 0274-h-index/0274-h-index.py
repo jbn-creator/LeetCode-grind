@@ -9,7 +9,6 @@ class Solution:
         if len(citations) == 1 and citations[0] == 0:
             return 0
 
-  
         for i in range(len(citations)):
             freq = len(citations) - i
 
@@ -17,6 +16,6 @@ class Solution:
             if  freq >= citations[i]:
                 maxH = citations[i] #since we have our list sorted every value would be a maximum
             else:
-                #this else 
+                #this else represents cases where we a higher amount of citations than we have papers, we 
                 maxH = max(freq, maxH) 
         return maxH
