@@ -8,7 +8,6 @@ class Solution:
         if len(citations) == 1 and citations[0] == 0:
             return 0
 
-        print(citations)
         for i in range(len(citations)):
             freq = len(citations) - i
             if  freq >= citations[i]:
