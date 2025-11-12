@@ -2,26 +2,35 @@ from random import randint
 class RandomizedSet:
 
     def __init__(self):
+        self.randomArr = []
         self.randomSet = dict()
+        self.currentIndex = 0
 
     def insert(self, val: int) -> bool:
         if val in self.randomSet:
             return False
         else:
-            self.randomSet[val] = "insert"
+            self.randomArr.append(val)
+            self.randomSet[val] = self.currentIndex
+            self.currentIndex += 1
             return True
 
     def remove(self, val: int) -> bool:
         if val in self.randomSet:
+            swappedEl = self.randomArr[-1]
+            self.randomArr[-1] = val
+            self.randomSet[swappedEl] = self.randomSet[val]
+            self.randomArr[self.randomSet[val]] = swappedEl
+            self.randomArr.pop()
+            self.currentIndex -= 1
             del self.randomSet[val]
             return True
         else:
             return False
 
     def getRandom(self) -> int:
-        arrayRS = list(self.randomSet.keys())
-        random = randint(0,(len(arrayRS) - 1))
-        return arrayRS[random]
+        random = randint(0,(len(self.randomArr) - 1))
+        return self.randomArr[random]
         
 
 
