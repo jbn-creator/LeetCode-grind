@@ -1,11 +1,10 @@
 class Solution:
     def candy(self, ratings: List[int]) -> int:
+        #Trying without hint: got 14/50 test case
+
         # biggerRating = []
-        outpt = []
         # initialVal = ratings[0] > ratings[1]
         # biggerRating.append(initialVal)
-        # if ratings == [29,51,87,87,72,12]:
-        #     return 12
         # for i in range(1,len(ratings)):
         #     if i == len(ratings) - 1:
         #         value = ratings[i] > ratings[i - 1]
@@ -36,7 +35,8 @@ class Solution:
         #             print(f"add: {prev} for step{i} because bigger")
         # return output
 
-        
+        #hint
+        outpt = []
         for k in range(len(ratings)):
             outpt.append(1)
         print(outpt)
