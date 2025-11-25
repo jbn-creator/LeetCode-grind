@@ -3,10 +3,6 @@ class Solution:
         print(len(strs[0]))
         val = ""
         minW = min(strs)
-        if len(minW) == 0:
-            return ""
-        if len(strs) == 1:
-            return strs[0]
         i = 0
         while i < len(minW):
             for j in range(len(strs)):
