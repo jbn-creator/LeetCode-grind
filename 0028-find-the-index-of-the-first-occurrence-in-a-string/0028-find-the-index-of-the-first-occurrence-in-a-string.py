@@ -1,7 +1,9 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         i,j = 0, len(needle)
+        # start = 0
         while i < (1 + len(haystack) - len(needle)):
+            # KMP attempted - 79 / 85 test cases
             # print(i)
             # while haystack[i + j] == needle[j]:
             #     if j == len(needle) - 1:
