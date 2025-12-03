@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/jbn-creator/LeetCode-grind/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/jbn-creator/LeetCode-grind/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/jbn-creator/LeetCode-grind/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/jbn-creator/LeetCode-grind/tree/master/0058-length-of-last-word) |
 | [0151-reverse-words-in-a-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0151-reverse-words-in-a-string) |
 | [0412-fizz-buzz](https://github.com/jbn-creator/LeetCode-grind/tree/master/0412-fizz-buzz) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jbn-creator/LeetCode-grind/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/jbn-creator/LeetCode-grind/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/jbn-creator/LeetCode-grind/tree/master/0189-rotate-array) |
@@ -115,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/jbn-creator/LeetCode-grind/tree/master/0238-product-of-array-except-self) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
