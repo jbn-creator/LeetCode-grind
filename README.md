@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/jbn-creator/LeetCode-grind/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/jbn-creator/LeetCode-grind/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/jbn-creator/LeetCode-grind/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jbn-creator/LeetCode-grind/tree/master/0380-insert-delete-getrandom-o1) |
 ## String
 |  |
@@ -77,11 +78,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/jbn-creator/LeetCode-grind/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jbn-creator/LeetCode-grind/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jbn-creator/LeetCode-grind/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jbn-creator/LeetCode-grind/tree/master/0380-insert-delete-getrandom-o1) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jbn-creator/LeetCode-grind/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -90,10 +93,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/jbn-creator/LeetCode-grind/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jbn-creator/LeetCode-grind/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/jbn-creator/LeetCode-grind/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jbn-creator/LeetCode-grind/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 ## Math
 |  |
 | ------- |
@@ -151,4 +156,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jbn-creator/LeetCode-grind/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
