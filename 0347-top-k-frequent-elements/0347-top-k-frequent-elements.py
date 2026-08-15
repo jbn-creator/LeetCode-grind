@@ -15,12 +15,9 @@ class Solution(object):
                 rec[num] += 1
         for key, v in rec.items():
             freq[v].append(key)
-        print(freq)
         answ = []
         for i in range(len(freq) - 1, 0, - 1):
             if freq[i] != []:
-                print(freq[i])
-                print(answ)
                 for n in freq[i]:
                     answ.append(n)
                     k -= 1
