@@ -12,6 +12,7 @@ class Solution(object):
             return True
         def subBoxValid(sudoku):
             #didn't know what to write for this one 
+        
             for r in range(0, 9, 3):
                 for c in range(0, 9, 3):
                     box = [
