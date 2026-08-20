@@ -180,4 +180,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/jbn-creator/LeetCode-grind/tree/master/0128-longest-consecutive-sequence) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/jbn-creator/LeetCode-grind/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
