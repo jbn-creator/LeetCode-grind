@@ -1,19 +1,25 @@
-class Solution:
-    def isValid(self, s: str) -> bool:
-        openClose = {'[' : ']', '{': '}', '(' : ')', ']' : 'closedBrckt', '}': 'closedBrckt', ')': 'closedBrckt'}
-        stackOpen = []
-        numberOpen = 0
-        numberClose = 0
-        for i in range(len(s)):
-            if openClose[s[i]] != 'closedBrckt':
-                numberOpen += 1
-                stackOpen.append(s[i])
-            else:
-                numberClose += 1
-                if stackOpen:
-                    lastOpen = stackOpen.pop()
-                    if openClose[lastOpen] != s[i]:
-                        return False
-        if stackOpen or (len(s) % 2 != 0) or (('[' not in s) and ('{' not in s) and ('(' not in s)) or numberOpen != numberClose: 
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if len(s) % 2 != 0:
             return False
-        return True
+
+        openBrackets = {'(', '{', '['}
+        closedBrackets = {'(': ')',
+                          '{': '}', 
+                          '[': ']'}
+        vob = []
+        for bracket in s:
+            if bracket not in openBrackets:
+                if len(vob) == 0 or closedBrackets[vob[-1]] != bracket:
+                    return False
+                vob.pop()
+            else:
+                vob.append(bracket)
+        if len(vob) == 0:
+            return True
+        else: 
+            return False
