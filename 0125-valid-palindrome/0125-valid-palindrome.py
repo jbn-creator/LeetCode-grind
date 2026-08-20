@@ -1,35 +1,16 @@
-# class Solution:
-#     def isPalindrome(self, s: str) -> bool:
-#         answ = True
-#         l = 0
-#         r = len(s) - 1
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        formatedS = "".join(char for char in s if char.isalnum())
+        formatedS = formatedS.lower()
 
-#         if len(s) < 2:
-#             return True
-#         while l <= r:
-#             while not s[l].isalnum() and l < r:
-#                 l += 1
-#             while not s[r].isalnum() and l < r:
-#                 r -= 1
-#             if s[l].lower() != s[r].lower():
-#                 answ = False
-#                 break
-#             l += 1
-#             r -= 1
-#         return answ
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        s = s.lower()
-        s = re.sub('[^a-zA-Z0-9]', '', s)
-        
-        left = 0
-        right = len(s) - 1
-
-        while left < right:
-            if s[left] != s[right]:
+        i,j = 0, len(formatedS) - 1
+        while i < j:
+            if formatedS[i] != formatedS[j]:
                 return False
-            else:
-                left += 1
-                right -= 1
-        
+            i += 1
+            j -= 1
         return True
