@@ -5,7 +5,6 @@ class Solution:
         while l < r:
             area = (r - l) * min(height[l], height[r])
             maxA = max(maxA, area)
-            print(f"{l} {r} {area}")
             if height[l] > height[r]:
                 r -= 1
             else:
