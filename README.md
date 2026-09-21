@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/jbn-creator/LeetCode-grind/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/jbn-creator/LeetCode-grind/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/jbn-creator/LeetCode-grind/tree/master/0135-candy) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/jbn-creator/LeetCode-grind/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jbn-creator/LeetCode-grind/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/jbn-creator/LeetCode-grind/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/jbn-creator/LeetCode-grind/tree/master/0189-rotate-array) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/jbn-creator/LeetCode-grind/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jbn-creator/LeetCode-grind/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Heap (Priority Queue)
 |  |
