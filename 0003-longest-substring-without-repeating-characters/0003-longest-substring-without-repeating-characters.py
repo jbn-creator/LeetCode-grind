@@ -2,10 +2,8 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         answ = 0
         lenSubs = 1
-        if len(s) == 1:
-            return 1
-        if len(s) == 0:
-            return 0
+        if len(s) < 2:
+            return len(s)
         l,r = 0, 1
         seenChar = {s[l]}
         while r < len(s):
