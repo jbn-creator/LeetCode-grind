@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/jbn-creator/LeetCode-grind/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/jbn-creator/LeetCode-grind/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/jbn-creator/LeetCode-grind/tree/master/0412-fizz-buzz) |
+| [0424-longest-repeating-character-replacement](https://github.com/jbn-creator/LeetCode-grind/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0567-permutation-in-string) |
 ## Trie
 |  |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/jbn-creator/LeetCode-grind/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/jbn-creator/LeetCode-grind/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jbn-creator/LeetCode-grind/tree/master/0380-insert-delete-getrandom-o1) |
+| [0424-longest-repeating-character-replacement](https://github.com/jbn-creator/LeetCode-grind/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0567-permutation-in-string) |
 ## Divide and Conquer
 |  |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jbn-creator/LeetCode-grind/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/jbn-creator/LeetCode-grind/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/jbn-creator/LeetCode-grind/tree/master/0567-permutation-in-string) |
 ## Binary Search
 |  |
