@@ -17,3 +17,15 @@ class Solution:
             curr = nextNode
         curr.next = prev
         return curr
+
+""" 
+My recursive version:
+        def reverseListRec(self, curr: ListNode | None, prev: ListNode | None) -> ListNode | None:
+            if curr:
+                nextNode = curr.next
+                curr.next = prev
+                prev = curr
+                curr = nextNode
+                return reverseListRec(curr, prev)
+            return prev
+"""
